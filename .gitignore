@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- SDR / IQ captures (never commit: large, and can leak time/location/signal detail) ---
+*.iq
+*.cf32
+*.cfile
+*.cs8
+*.cs16
+*.sigmf-data
+*.sigmf-meta
+examples/captures/*
+!examples/captures/.gitkeep
