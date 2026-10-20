@@ -1,4 +1,15 @@
 #!/usr/bin/env python3
+#
+#      _    ____ ____ _____ ___  ____
+#     / \  / ___/ ___| ____/ _ \/ ___|
+#    / _ \| |  | |  _|  _|| | | \___ \
+#   / ___ \ |__| |_| | |__| |_| |___) |
+#  /_/   \_\____\____|_____\___/|____/
+#
+#  spectrum-cartographer  --  passive RF spectrum mapping
+#  ACGEOS Systems  |  info@ACGEOS.com
+#  Licensed under GPLv3. Receive-only.
+#
 """Render a power spectrogram / occupancy heatmap from a recorded IQ file.
 
 Receive-only spectrum mapping. Reads interleaved complex samples and plots a

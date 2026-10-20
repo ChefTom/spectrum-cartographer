@@ -1,4 +1,15 @@
 #!/usr/bin/env python3
+#
+#      _    ____ ____ _____ ___  ____
+#     / \  / ___/ ___| ____/ _ \/ ___|
+#    / _ \| |  | |  _|  _|| | | \___ \
+#   / ___ \ |__| |_| | |__| |_| |___) |
+#  /_/   \_\____\____|_____\___/|____/
+#
+#  spectrum-cartographer  --  passive RF spectrum mapping
+#  ACGEOS Systems  |  info@ACGEOS.com
+#  Licensed under GPLv3. Receive-only.
+#
 """Flag residual emitters: compare a capture's occupancy to a saved baseline.
 
 Receive-only. Builds or loads a per-bin baseline (median + MAD) and reports
